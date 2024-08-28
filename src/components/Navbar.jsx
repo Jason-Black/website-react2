@@ -19,7 +19,10 @@ const Navbar = () => {
             <li>Developers</li>
             <li>Community</li>
             <li>About</li>
-            <button className='ml-4 px-7 py-3 rounded-3xl bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)]  text-black px-4 py-2  hover:bg-white transition duration-300'>Use Defi</button>
+            <button className="custom-glow-button border-none px-8 py-3 rounded-full bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] text-black transition-all duration-300">
+  Use Defi
+</button>
+
           </ul>
         </div>
 
@@ -38,7 +41,7 @@ const Navbar = () => {
             <li className='text-2xl'>Developers</li>
             <li className='text-2xl'>Community</li>
             <li className='text-2xl'>About</li>
-            <button className='m-8'>Use Defi</button>
+            <button className='custom-glow-button m-8'>Use Defi</button>
           </ul>
         </div>
       </div>

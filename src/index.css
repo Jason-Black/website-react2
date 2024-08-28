@@ -17,6 +17,19 @@ body {
     --primary-purple: #6a00ff;
 }
 
+.custom-glow-button {
+    border: 0px solid;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+
+.custom-glow-button:hover {
+    border: 2px solid;
+    border-color: rgba(15, 255, 255, 1.0);
+    box-shadow: 0 0 25px rgba(15, 255, 255, 1.0);
+    color: aliceblue;
+}
+
 @layer base {
     * {
         @apply font-[Kanit]
