@@ -29,7 +29,5 @@ body {
         @apply p-4
     };
 
-    button {
-        @apply px-7 py-3 rounded-3xl bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)]
-    }
+    
 }

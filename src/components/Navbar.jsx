@@ -8,7 +8,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className='w-full h-[90px] bg-black'>
+    <div className='w-full h-[70px] bg-transparent backdrop-blur-sm fixed z-50'>
       <div className='max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full'>
         <div>
           <h1 className='text-[#00d8ff]'>DEFI</h1>
@@ -19,7 +19,7 @@ const Navbar = () => {
             <li>Developers</li>
             <li>Community</li>
             <li>About</li>
-            <button className='ml-4'>Use Defi</button>
+            <button className='ml-4 px-7 py-3 rounded-3xl bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)]  text-black px-4 py-2  hover:bg-white transition duration-300'>Use Defi</button>
           </ul>
         </div>
 
