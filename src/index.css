@@ -9,6 +9,9 @@
     color: var(--primary-blue);
 }
 
+body {
+    background-color: #000;
+  }
 :root {
     --primary-blue: #00deff;
     --primary-purple: #6a00ff;

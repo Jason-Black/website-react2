@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false);
+    const [nav, setNav] = useState(false)
     const handleNav = () => {
-        setNav(!nav);
+        setNav(!nav)
     }
 
   return (
@@ -14,14 +14,12 @@ const Navbar = () => {
           <h1 className='text-[#00d8ff]'>DEFI</h1>
         </div>
         <div className='hidden md:flex'>
-          <ul className='flex text-white items-center space-x-4'>
+          <ul className='flex text-white items-center'>
             <li>Platform</li>
             <li>Developers</li>
             <li>Community</li>
             <li>About</li>
-            <li>
             <button className='ml-4'>Use Defi</button>
-            </li>
           </ul>
         </div>
 
@@ -33,7 +31,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        <div className={nav ? 'w-full z-30 bg-black text-white absolute top-[73px] left-0 pb-24 flex justify-center text-center' : 
+        <div className={nav ? 'w-full z-30 pb-40 bg-black text-white absolute top-[90px] left-0 flex justify-center text-center' : 
     'absolute left-[-100%]'}>
           <ul>
             <li className='text-2xl'>Platform</li>
