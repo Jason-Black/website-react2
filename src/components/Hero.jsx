@@ -12,6 +12,7 @@ const Hero = () => {
         loop
         muted
         playsInline
+        preload='auto'
       />
       <div className='drop-shadow-sm stroke-black w-full h-[90%] flex flex-col justify-center items-center text-white px-4 text-center'>
         <h1>Decentralized</h1>
